@@ -1,0 +1,61 @@
+2022/06/14-17:55:44.587 116bd Reusing MANIFEST /home/thomas/Documents/Thomas/codes/node/ft-zap-bot/tokens/BOT/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/14-17:55:44.587 116bd Recovering log #495
+2022/06/14-17:55:44.601 116bd Reusing old log /home/thomas/Documents/Thomas/codes/node/ft-zap-bot/tokens/BOT/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000495.log 
+2022/06/14-17:56:01.650 116c0 Level-0 table #507: started
+2022/06/14-17:56:01.694 116c0 Level-0 table #507: 1164719 bytes OK
+2022/06/14-17:56:01.696 116c0 Delete type=0 #495
+2022/06/14-17:56:01.777 116fd Compacting 1@1 + 8@2 files
+2022/06/14-17:56:01.858 116fd Generated table #508@1: 30618 keys, 2271353 bytes
+2022/06/14-17:56:01.936 116fd Generated table #509@1: 43759 keys, 2231975 bytes
+2022/06/14-17:56:01.983 116fd Generated table #510@1: 9663 keys, 2159101 bytes
+2022/06/14-17:56:02.055 116fd Generated table #511@1: 21195 keys, 2195884 bytes
+2022/06/14-17:56:02.115 116fd Generated table #512@1: 19613 keys, 2168050 bytes
+2022/06/14-17:56:02.201 116fd Generated table #513@1: 81706 keys, 2225215 bytes
+2022/06/14-17:56:02.308 116fd Generated table #514@1: 105035 keys, 2257245 bytes
+2022/06/14-17:56:02.330 116fd Generated table #515@1: 19086 keys, 413753 bytes
+2022/06/14-17:56:02.330 116fd Compacted 1@1 + 8@2 files => 15922576 bytes
+2022/06/14-17:56:02.333 116fd compacted to: files[ 0 0 8 0 0 0 0 ]
+2022/06/14-17:56:03.926 116c0 Level-0 table #517: started
+2022/06/14-17:56:03.956 116c0 Level-0 table #517: 1022609 bytes OK
+2022/06/14-17:56:03.958 116c0 Delete type=2 #498
+2022/06/14-17:56:03.958 116c0 Delete type=2 #502
+2022/06/14-17:56:03.958 116c0 Delete type=2 #503
+2022/06/14-17:56:03.958 116c0 Delete type=2 #499
+2022/06/14-17:56:03.958 116c0 Delete type=2 #497
+2022/06/14-17:56:03.958 116c0 Delete type=2 #501
+2022/06/14-17:56:03.958 116c0 Delete type=2 #500
+2022/06/14-17:56:03.958 116c0 Delete type=2 #504
+2022/06/14-17:56:03.958 116c0 Delete type=2 #507
+2022/06/14-17:56:03.958 116c0 Delete type=0 #506
+2022/06/14-17:56:03.989 116c2 Compacting 1@1 + 5@2 files
+2022/06/14-17:56:04.063 116c2 Generated table #518@1: 29533 keys, 2226310 bytes
+2022/06/14-17:56:04.146 116c2 Generated table #519@1: 38687 keys, 2254334 bytes
+2022/06/14-17:56:04.212 116c2 Generated table #520@1: 19868 keys, 2183719 bytes
+2022/06/14-17:56:04.259 116c2 Generated table #521@1: 14183 keys, 2171902 bytes
+2022/06/14-17:56:04.325 116c2 Generated table #522@1: 24154 keys, 2195007 bytes
+2022/06/14-17:56:04.345 116c2 Generated table #523@1: 2446 keys, 424542 bytes
+2022/06/14-17:56:04.345 116c2 Compacted 1@1 + 5@2 files => 11455814 bytes
+2022/06/14-17:56:04.350 116c2 compacted to: files[ 0 0 9 0 0 0 0 ]
+2022/06/14-17:56:04.350 116c2 Delete type=2 #508
+2022/06/14-17:56:04.350 116c2 Delete type=2 #510
+2022/06/14-17:56:04.351 116c2 Delete type=2 #511
+2022/06/14-17:56:04.351 116c2 Delete type=2 #512
+2022/06/14-17:56:04.351 116c2 Delete type=2 #509
+2022/06/14-17:56:04.351 116c2 Delete type=2 #517
+2022/06/14-17:56:06.220 116c0 Level-0 table #525: started
+2022/06/14-17:56:06.254 116c0 Level-0 table #525: 991340 bytes OK
+2022/06/14-17:56:06.257 116c0 Delete type=0 #516
+2022/06/14-17:56:06.271 116fd Compacting 1@1 + 5@2 files
+2022/06/14-17:56:06.352 116fd Generated table #526@1: 30911 keys, 2266689 bytes
+2022/06/14-17:56:06.423 116fd Generated table #527@1: 41909 keys, 2232613 bytes
+2022/06/14-17:56:06.459 116fd Generated table #528@1: 12221 keys, 2162809 bytes
+2022/06/14-17:56:06.513 116fd Generated table #529@1: 20483 keys, 2192604 bytes
+2022/06/14-17:56:06.570 116fd Generated table #530@1: 18037 keys, 1816850 bytes
+2022/06/14-17:56:06.570 116fd Compacted 1@1 + 5@2 files => 10671565 bytes
+2022/06/14-17:56:06.572 116fd compacted to: files[ 0 0 9 0 0 0 0 ]
+2022/06/14-17:56:06.572 116fd Delete type=2 #520
+2022/06/14-17:56:06.572 116fd Delete type=2 #525
+2022/06/14-17:56:06.572 116fd Delete type=2 #518
+2022/06/14-17:56:06.572 116fd Delete type=2 #519
+2022/06/14-17:56:06.572 116fd Delete type=2 #521
+2022/06/14-17:56:06.572 116fd Delete type=2 #522
