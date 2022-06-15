@@ -28,6 +28,20 @@ manager.addDocument('pt', 'lugar', 'localizacao');
 manager.addDocument('pt', 'endereco', 'localizacao');
 manager.addDocument('pt', 'ponto de referencia', 'localizacao');
 
+// Horários
+manager.addDocument('pt', 'abertos ate que horas', 'horario');
+manager.addDocument('pt', 'horario de funcionamento', 'horario');
+manager.addDocument('pt', 'ate que horas estão abertos', 'horario');
+manager.addDocument('pt', 'que horas voces abrem', 'horario');
+manager.addDocument('pt', 'que horas vocês fecham', 'horario');
+
+// Contatos
+manager.addDocument('pt', 'numero para ligar', 'contato');
+manager.addDocument('pt', 'redes sociais', 'contato');
+manager.addDocument('pt', 'o email de voces', 'contato');
+manager.addDocument('pt', 'o telefone de voces', 'contato');
+
+
 
 
 // Train also the NLG
@@ -46,6 +60,27 @@ manager.addAnswer(
   'localizacao', 
   'Entendi, você quer saber o nosso endereço.\nEstamos em São Paulo - SP\nRua XXXXXXX, número XX\nFicamos no Xº andar'
 );
+
+// Horarios
+manager.addAnswer(
+  'pt', 
+  'horario', 
+  'Horário de funcionamento:\nSeg a Sex: 08:00 às 18:00\nDomingos e feriados: 10:00 às 13:00'
+);
+manager.addAnswer('pt', 'horario', 'Estamos abertos de segunda a sexta das 08:00 as 18:00');
+
+// Saudacao
+manager.addAnswer(
+  'pt', 
+  'contato', 
+  'Telefone:(XX)XXXXX-XXXX\nE-mail:XXXX@GMAIL.COM\nInstagram: @XXXXXXX'
+);
+manager.addAnswer(
+  'pt', 
+  'contato', 
+  'Você pode nos contatar por aqui! =)\nTelefone:(XX)XXXXX-XXXX\nE-mail:XXXX@GMAIL.COM\nInstagram: @XXXXXXX'
+);
+
 
 // Train and save the model.
 (async() => {
@@ -70,30 +105,3 @@ manager.addAnswer(
     console.log(erro);
   });    
 })();
-
-
-
-
-
-// import { create, Whatsapp } from 'venom-bot';
-
-// create('BOT')
-//   .then((client) => start(client))
-//   .catch((erro) => {
-//     console.log(erro);
-//   });
-
-// function start(client: Whatsapp) {
-//   client.onMessage((message) => {
-//     if (message.body.toLowerCase() === 'hi' && message.isGroupMsg === false) {
-//       client
-//         .sendText(message.from, 'Olá, tudo bem? Sou o Thomas, seu assistente virtual.\nComo posso ajuda-lo(a)?')
-//         .then((result) => {
-//           console.log('Result: ', result); //return object success
-//         })
-//         .catch((erro) => {
-//           console.error('Error when sending: ', erro); //return object error
-//         });
-//     }
-//   });
-// }
